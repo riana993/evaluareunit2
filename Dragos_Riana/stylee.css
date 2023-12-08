@@ -1,0 +1,92 @@
+#numeprenume {
+    border: 5px solid black;
+    text-align: right;
+    background-color: #1a1a1a; /* Culore de fundal neagră mai închisă */
+    color: #ffffff; /* Text alb */
+    font-style: italic; /* Stil de font italic */
+    font-weight: normal; /* Greutate normală a fontului */
+}
+
+#email {
+    text-align: right;
+    color: #3366cc; /* Text albastru */
+    font-family: 'Arial', sans-serif; /* Font Arial sau orice alt font fără serife */
+}
+
+#retea {
+    border: 2px solid #4d4d4d; /* Bordură mai închisă */
+    background-color: #e8e8e8; /* Culore de fundal gri deschis */
+}
+
+#titlu {
+    font-style: normal;
+    font-weight: bold; /* Text îngroșat */
+    color: #2e7d32; /* Text verde */
+    text-align: right;
+    text-decoration-line: none; /* Fără subliniere */
+}
+
+#titlu2 {
+    color: #d32f2f; /* Text roșu */
+    text-align: center;
+}
+
+#reteaua {
+    width: 900px;
+    height: 400px;
+}
+
+table, td, th {
+    border: 3px solid #666666; /* Bordură mai închisă */
+    border-collapse: collapse;
+    color: #333333; /* Text gri închis */
+    font-family: 'Times New Roman', serif; /* Font Times New Roman sau alt font cu serife */
+}
+
+body {
+    font-family: 'Helvetica', sans-serif; /* Font Helvetica sau orice alt font fără serife */
+}
+
+img {
+    vertical-align: middle;
+    border-radius: 10px; /* Poți ajusta valoarea pentru a obține margini mai rotunde sau mai ascuțite */
+}
+
+.caption-container {
+    position: relative;
+}
+
+.text {
+    color: #514d4d;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 80%;
+    text-align: center;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+    border-radius: 10px; /* Adaugă margini rotunde pentru imagini */
+}
+
+
+.dot {
+    background-color: #999999; /* Culoare bullet gri mai închisă */
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #ffcc00; /* Culoare bullet galben */
+}
+
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 14px; /* Mărimea textului 14px pentru ecrane mici */
+    }
+}
